@@ -32,6 +32,11 @@ Thumbs.db
 *.srt
 *.vtt
 
-# Launcher scripts (local paths)
-_*.ps1
-_*.py
+# Launcher scripts (local paths, hardcoded paths)
+_run*.ps1
+_check*.ps1
+_cut*.ps1
+_merge*.ps1
+_probe*.ps1
+_audio*.ps1
+_sizes.ps1
