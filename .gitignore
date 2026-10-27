@@ -1,0 +1,37 @@
+# Output folders
+out/
+corpus/
+eligible/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Demucs cache
+*_vocals.wav
+*_no_vocals.wav
+
+# Temp
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Large media
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.srt
+*.vtt
+
+# Launcher scripts (local paths)
+_*.ps1
+_*.py
