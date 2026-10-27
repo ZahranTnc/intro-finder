@@ -1,6 +1,6 @@
 from faster_whisper import WhisperModel
 import os
-voc = r"D:\ai\clipcafe\_vocal_test\new1-47_vocals.wav"
+voc = r"D:\ai\intro-finder\_vocal_test\new1-47_vocals.wav"
 print("size MB:", round(os.path.getsize(voc)/1e6,2))
 m = WhisperModel("small", device="cpu", compute_type="int8")
 segs, info = m.transcribe(voc, language="en", beam_size=5, vad_filter=True,
